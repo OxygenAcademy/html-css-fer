@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Titulo de pagina</title>
+
+<script>
+
+enviardatos = function(){
+
+    alert("esto es un script");
+
+};
+
+</script>
+
+    <style>
+
+    </style>
+
+    <!--<link rel="stylesheet" type="text/css" href="estilos.css" />-->
+
+</head>
+
+<body>
+    <hr>
+    <form action="" method="POST">
+        <!--<form action="/formdata" method="get">-->
+        <label for="name">Nombre: </label>
+        <input id="name"  placeholder="escribir tu nombre" value="hola" />
+        <br>
+        <label for="file">Archivo: </label>
+        <input id="file" type="file" name="file">
+        <br>
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="email" placeholder="escribir tu email">
+        <br>
+        <label for="password">Password: </label>
+        <input id="password" type="password" name="password" placeholder="escribir tu password">
+        <br>
+        <textarea placeholder="ingresa un comentario">texto</textarea>
+        <br>
+
+        <input type="submit">
+
+        <button onclick="enviardatos()" class="textorojo" id="textoanaranjado"><img width="100px" src="imagenes/imagen.png" /></button>
+    </form>
+    <hr>
+
+    <ol>
+        <li value="50">Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>
+            <ul>
+                <li>item 5</li>
+                <li>item 6</li>
+                <li>item 7</li>
+                <li>item 8</li>
+            </ul>
+        </li>
+    </ol>
+    <div>
+        <hr>
+
+        <p>reverdes order list</p>
+        <ol reversed>
+            <li style="list-style-type:decimal;">item 1</li>
+            <li style="list-style-type:upper-roman;">item 2</li>
+            <li style="list-style-type:upper-roman;">item 3</li>
+            <li style="list-style-type:upper-roman;">item 4</li>
+        </ol>
+    </div>
+    <!-- todo lo que esta adentro de un comentario la pagina web nolo va a interpretar -->
+
+    <!-- listas -->
+    esto es un articulo
+
+    <div>
+        <section>
+            <article>esto es un articulo</article>
+        </section>
+    </div>
+
+    <p>esto es un articulo</p>
+
+    <hr>
+
+    <h1 class="textorojo">Esto es un titulo 1</h1>
+    <h2>Esto es un titulo 2</h2>
+    <h3>Esto es un titulo 3</h3>
+    <h4>Esto es un titulo 4</h4>
+    <h5>Esto es un titulo 5</h5>
+    <h6>Esto es un titulo 6</h6>
+
+    <hr>
+
+    <p>esto es un parrafo</p>
+
+    <p>esto es un <spam style="color: blueviolet;">parrafo</spam>
+    </p>
+
+    <a class="textorojo" target="_blank" href="http://google.com">link 1</a>
+
+    <a target="_self" href="http://google.com">link 2</a>
+    <br>
+
+    <table>
+        <thead>
+            <th>columna 1</th>
+            <th>columna 2</th>
+            <th>columna 3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>elemento 1</td>
+                <td>elemento 2</td>
+                <td>elemento 3</td>
+            </tr>
+            <tr>
+                <td>elemento 1</td>
+                <td>elemento 2</td>
+                <td>elemento 3</td>
+            </tr>
+            <tr>
+                <td>elemento 1</td>
+                <td>elemento 2</td>
+                <td>elemento 3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
