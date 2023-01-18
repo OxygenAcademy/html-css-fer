@@ -1,0 +1,27 @@
+*{
+    background-color: blue;
+}
+
+table
+{
+    background-color: chartreuse;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+}
+
+#textoanaranjado
+{
+    color: orange;
+    background-color: olivedrab;
+}
+
+.textorojo{
+
+    background-color: red;
+    color: tomato;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejercicio Experto</title>
+</head>
+<body>
+  <nav id="menu">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <button id="btn-menu">Menú</button>
+
+<!-- comentario -->
+
+ <style>
+
+  
+
+ </style>
+
+  <script>
+    // Obtener el botón y el menú
+    var btnMenu = document.getElementById("btn-menu");
+    var menu = document.getElementById("menu");
+
+    // Función para mostrar y ocultar el menú en dispositivos móviles
+    function toggleMenu() {
+      if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    }
+
+    // Agregar evento al botón para mostrar y ocultar el menú
+    btnMenu.addEventListener("click", toggleMenu);
+  </script>
+</body>
+</html>
