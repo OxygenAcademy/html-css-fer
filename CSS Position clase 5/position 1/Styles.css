@@ -1,0 +1,9 @@
+div.rojo{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    top: 40px;
+    border-top: 10px;
+    border-top-color:black;
+    position: relative;
+}
