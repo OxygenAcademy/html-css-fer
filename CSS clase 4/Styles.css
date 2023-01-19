@@ -1,0 +1,121 @@
+* {
+    background-color: cornflowerblue;
+}
+
+body {
+    color: tomato;    
+}
+
+.colorRed{
+
+    background-color: red;
+    color: chartreuse;
+}
+
+.title {
+    margin: 0 auto;
+    width: 50%; /* esta linea es opcional */
+    color: white;
+}
+
+.tinyFont{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+}
+
+#large {
+    width: max-content;
+    font-size: large;
+}
+
+input[type="range"]
+{
+    accent-color: red;
+}
+
+input[type="checkbox"]
+{
+    accent-color: green;
+}
+
+input[type="radio"]
+{
+    accent-color: yellow;
+}
+
+p.dark{
+    background-color: black;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+h2{
+
+color: violet;
+background-color: darkblue;
+
+}
+
+div h2, div h3 {
+
+color: chartreuse;
+background-color: brown;
+
+border-style: dotted;
+border-radius: 3px;
+border-width: 2rem;
+
+}
+
+
+h3:hover
+{
+    background-color: black;
+}
+
+/* comentario de linea */
+
+/* comentario de bloque
+ h3 {
+    border-color: tomato;
+ }
+*/
+
+
+ #fondo{
+    background-color: blueviolet;
+    opacity: 0.3;
+    background-image: url("Img/cssicon.png");
+    background-size: cover;
+ }
+
+ .margin{
+
+    margin: 10px 20px 30px 5px;
+    padding: 15px 20px 5px 10px;
+ } 
+
+a{
+
+font-size: larger;
+background-color: blueviolet;
+
+}
+
+ /*respetar el orden*/
+ a:link{
+    color: blueviolet;
+ }
+
+ a:visited{
+    color: yellow;
+ }
+
+ a:hover {
+    color: red;
+ }
+
+ a:active {
+    color: black
+ }

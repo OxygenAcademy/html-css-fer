@@ -1,0 +1,28 @@
+body
+{
+background-color: grey
+}
+
+.boxBlue
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    position: relative;
+}
+
+.boxBlack{
+
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: blueviolet;
+    padding: 10px;
+    position: absolute;
+    
+}
+
+p{
+    background-color:   rgba(43, 187, 236, 0.566);
+}
