@@ -1,0 +1,41 @@
+/* Para crear un modal que aparezca en el centro de la pantalla: */
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+}
+
+/* Para crear una capa de información que aparezca encima de una imagen al hacer hover: */
+
+  .image-container {
+    position: relative;
+    width: 300px; /* Establecemos un ancho para el contenedor */
+    margin: 0 auto; /* Centramos el contenedor horizontalmente */
+  }
+  
+  img {
+    width: 100%; /* Ajustamos el ancho de la imagen al del contenedor */
+    height: auto; /* Ajustamos la altura automáticamente */
+  }
+  
+  .image-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Establecemos un ancho para la capa de información */
+    height: 100%; /* Establecemos una altura para la capa de información */
+    background-color: rgba(0, 0, 0, 0.5); /* Le damos un fondo y opacidad a la capa de información */
+    color: white; /* Le damos un color al texto dentro de la capa de información */
+    display: none; /* Ocultamos la capa de información por defecto */
+    padding: 10px; /* Añadimos un padding alrededor del texto */
+  }
+  
+  .image-container:hover .image-info {
+    display: block; /* Mostramos la capa de información al hacer hover en el contenedor */
+  }
+  

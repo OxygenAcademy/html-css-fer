@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  width: 500px; /* Establecemos un ancho para el contenedor */
+  margin: 0 auto; /* Centramos el contenedor horizontalmente */
+  padding: 10px; /* Añadimos un padding alrededor del contenido */
+  background-color: cadetblue;
+}
+
+.button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px; /* Añadimos un padding alrededor del botón */
+  background-color: #333; /* Le damos un fondo al botón */
+  color: white; /* Le damos un color al texto dentro del botón */
+  border: none; /* Eliminamos el borde por defecto del botón */
+  cursor: pointer; /* Cambiamos el cursor al hacer hover sobre el botón */
+}
+
+.button:hover {
+  background-color: #444; /* Le damos un fondo diferente al hacer hover sobre el botón */
+}
