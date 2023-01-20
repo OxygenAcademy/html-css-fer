@@ -1,0 +1,45 @@
+/*Para crear una barra de navegación fija en la parte superior de la página:*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #333; /* Le damos un fondo a la barra de navegación */
+  }
+  
+  nav ul {
+    margin: 0; /* Eliminamos el margen por defecto de la lista */
+    padding: 0; /* Eliminamos el padding por defecto de la lista */
+    list-style: none; /* Eliminamos el estilo por defecto de los elementos de la lista */
+  }
+  
+  nav li {
+    display: inline-block; /* Mostramos los elementos de la lista en línea */
+  }
+  
+  nav a {
+    display: block; /* Mostramos los enlaces como bloques */
+    padding: 10px; /* Añadimos padding alrededor de los enlaces */
+    color: white; /* Le damos un color al texto dentro de los enlaces */
+    text-decoration: none; /* Eliminamos el subrayado por defecto de los enlaces */
+  }
+  
+  nav a:hover {
+    background-color: #444; /* Le damos un fondo al hacer hover en los enlaces */
+  }
+
+  /*
+
+  La propiedad "z-index" en CSS se utiliza para establecer la posición de un elemento en el eje z (o profundidad) 
+  en relación con otros elementos en la página. Los elementos con un valor de "z-index" más alto aparecerán encima de los 
+  elementos con un valor más bajo.
+
+  En el caso específico del ejemplo que se mencionó antes, "nav { z-index: 1; }" se establece un valor de 1 para la barra de navegación
+  para asegurar que esta se encuentra en primer plano, sobre cualquier elemento que se encuentre debajo. Es decir, si hay algún otro elemento
+  en la página con un valor de "z-index" más bajo que 1, la barra de navegación se mostrará encima de ese elemento.
+
+  Es importante mencionar que para que el z-index funcione, es necesario que el elemento tenga una posición diferente a "static"
+  (ya sea "absolute", "relative", "fixed") ya que de lo contrario el z-index no tendrá efecto en el elemento.
+
+  */

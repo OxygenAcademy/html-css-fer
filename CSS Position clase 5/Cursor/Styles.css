@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+button {
+  cursor: default; /* default value */
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.wait {
+  cursor: wait;
+}
+
+.text {
+  cursor: text;
+}
+
+.help {
+  cursor: help;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.move {
+  cursor: move;
+}
+
+.e-resize {
+  cursor: e-resize;
+}
+
+.ne-resize {
+  cursor: ne-resize;
+}
+
+.nw-resize {
+  cursor: nw-resize;
+}
+
+.n-resize {
+  cursor: n-resize;
+}
+
+.se-resize {
+  cursor: se-resize;
+}
+
+.sw-resize {
+  cursor: sw-resize;
+}
+
+.s-resize {
+  cursor: s-resize;
+}
+
+.w-resize {
+  cursor: w-resize;
+}
+
+.crosshair {
+  cursor: crosshair;
+}
+
+.progress {
+  cursor: progress;
+}
+
+.no-drop {
+  cursor: no-drop;
+}
+
+.hand {
+  cursor: pointer;
+}
+
+.col-resize {
+  cursor: col-resize;
+}
+
+.all-scroll {
+  cursor: all-scroll;
+}
