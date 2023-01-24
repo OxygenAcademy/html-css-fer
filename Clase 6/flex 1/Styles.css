@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(37, 164, 164);
+}  
+
+.container{
+    border: 5px solid black;
+    background-color: coral;
+    width: 80%;
+    margin: 0 auto; /*centrar en pantalla*/
+
+    height: 500px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box{
+
+    border: 3px solid black;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    line-height: 120px; /*centar el textop de un div*/
+    margin: 10px;
+}
+
+.b1{
+background-color: lightgreen;
+order: 2;
+flex-grow: 1;
+}
+
+.b2{
+background-color: lightgrey;
+order: 0;
+}
+
+.b3{
+background-color: lightpink;
+order: 1;
+flex-basis: 35%;
+}
