@@ -1,0 +1,15 @@
+body {
+    background-color: #c4ffff;
+    font-family: Verdana;
+}
+
+.tabla {
+    border: thick solid #fda7f9;
+    border-radius: 10px;
+}
+
+#vota {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(66, 0, 173);
+}

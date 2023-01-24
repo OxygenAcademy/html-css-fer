@@ -1,0 +1,6 @@
+.rojo {
+    background-color: red;
+    height: 200px; /*tamaño == px fijo, % relativo*/
+    width: 200px; 
+    position: relative; /*relative == se ubica respecto al padre*/
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>texto</h1> <!-- Ayuda en las búsquedas a priorizar, son títulos/titulares -->
+    <h2>texto</h2>
+    <h3>texto</h3>
+    <h4>texto</h4>
+    <h5>texto</h5>
+    <h6>texto</h6>
+
+    <br> <!-- Salto de línea, obsoleta, se gestiona con estilos (css) -->
+
+    <p>Párrafo</p>
+
+    <p>esto es un <span style="color: blueviolet">párrafo</span></p> <!-- En span se puede dar style -->
+    
+    <!-- Listas -->
+    <ol> <!-- ordenada (los elementos salen ordenados en número)-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>
+            <ul> <!-- desordenada (los elementos salen con puntitos)-->
+                <li>Item 5</li>
+                <li>Item 6</li>
+                <li>Item 7</li>
+                <li>Item 8</li>
+            </ul>
+        </li>    
+    </ol>
+
+    <!-- Imágenes -->
+
+    <img src="img/rocket.png" width="50%" height="100%"/> <!-- img no hace falta etiqueta de cierre, tiene varios atributos -->
+
+    <!-- Link -->
+
+    <a target="_blank" href="www.google.com">Link 1</a> <!-- target="_blank" para que abra el link en otra pestaña-->
+    <a target="_self" href="www.google.com">Link 2</a> <!-- target="_self" para que abra el link en la misma página-->
+
+    <!-- Tablas -->
+    
+    <table>
+        <thead> <!-- Haciendo scroll se sigue viendo -->
+            <th>columna 1</th>
+            <th>columna 1</th>
+            <th>columna 1</th>
+        </thead>
+        <tbody>
+            <tr>fila 1</tr>
+            <tr>fila 1</tr>
+            <tr>fila 1</tr>
+            <tr>
+                <td>elemento cualquiera</td> <!-- Se puede incluir cualquier cosa entre las casillas de las tablas entre <td></td> -->
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Placeholder -->
+
+    <input type="text" text="hola" placeholder="hola"> <!-- Da una pista del input que queremos, texto de ejemplo -->
+
+    <!-- Textarea -->
+
+    <textarea rows="" cols=""></textarea> <!-- crea un cuadro de texto donde se puede excribir, se puede definir cuanto grande es -->
+    <!-- rows y cols definen cuantas columnas y filas coges -->
+
+</body>
+</html>
