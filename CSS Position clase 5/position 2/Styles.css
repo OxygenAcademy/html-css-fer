@@ -9,7 +9,7 @@ background-color: grey
     width: 100px;
     height: 100px;
     margin: 30px;
-    position: relative;
+    position: absolute;
 }
 
 .boxBlack{
@@ -19,10 +19,10 @@ background-color: grey
     background-color: black;
     color: blueviolet;
     padding: 10px;
-    position: absolute;
+    position: relative;
     
 }
 
 p{
-    background-color:   rgba(43, 187, 236, 0.566);
+    background-color:   rgba(163, 237, 200, 0.784);
 }
