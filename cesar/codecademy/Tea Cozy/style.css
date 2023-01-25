@@ -1,0 +1,123 @@
+body { 
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+.estilo {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.encabezado {
+    /* position: fixed; */
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.menu a { /* Por qué se sale del header? Por que no tiene el color que toca?*/
+    padding-right: 10px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+
+#mission {
+    background-image: url("fotos/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 1;
+    width: 1200px;
+}
+
+#featured {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.teas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap row;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#locations {
+    margin: 50px auto;
+    background-image: url("fotos/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locationboxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+#contact {
+    height: 200px;
+}
+
+.copy {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: seashell;
+    opacity: 0.9;
+}
