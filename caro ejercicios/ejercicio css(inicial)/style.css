@@ -1,0 +1,72 @@
+body {
+    background-image: url("imagenes2/minimal2.jpg");
+
+}
+
+
+.Nails {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(179, 99, 99);
+    color: black;
+    border-radius: 80px 20px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 100px;
+    color: black;
+    border-radius: 50%;
+}
+
+
+
+p {
+    background-color: white;
+    color: black;
+    border-radius: 60px;
+    font-size: 20px;
+    opacity: 100;
+    position: absolute;
+    margin-right: 50px;
+    margin-left: 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+}
+
+.lista {
+    margin-left: 100px;
+    margin-right: 50px;
+    opacity: 85%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+table,
+th,
+td {
+
+    border-collapse: 100px;
+}
+
+th,
+td {
+    background-color: rgb(179, 99, 99);
+    border-radius: 80px 20px;
+
+}
+
+.masajes {
+    margin-top: 50px;
+    margin-left: 100px;
+    border-left: 50px;
+    font-weight: 100px;
+   
+
+}
+

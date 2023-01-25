@@ -1,0 +1,36 @@
+body {
+    background-color: yellow;
+
+}
+
+
+
+
+.flexcontainer {
+    border: 5px solid black;
+    background-color: coral;
+
+    margin: 10px;
+
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 90px;
+
+}
+
+.flexItem {
+    border: 3px solid green;
+    margin: 20px;
+    background-color: burlywood;
+
+
+    line-height: 90px;
+    padding: 20px 10px;
+
+}
+.caja2 {
+    flex-grow: 10;
+}
