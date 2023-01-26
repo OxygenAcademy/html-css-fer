@@ -71,6 +71,7 @@ body {
 .gallery {
     background-color: lightsalmon;
     grid-area: gallery;
+    display: flex;
 
 
 }
@@ -93,5 +94,15 @@ body {
     /*grid-column: 1/4;*/
     background-color: lightblue;
     grid-area: footer;
+
+}
+
+.box
+{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 10px;
+
 
 }

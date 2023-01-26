@@ -1,0 +1,34 @@
+.classSass h2 {
+  color: blue;
+}
+.classSass p {
+  color: black;
+}
+
+body {
+  background: lightgreen;
+}
+
+.caja {
+  background-color: green;
+  bottom: 4px solid black;
+  border: 3px solid greenyellow;
+  box-shadow: 0px 0px 2px black;
+  color: black;
+  font-size: 40px;
+}
+
+.caja-secundaria {
+  background-color: slateblue;
+  bottom: 4px solid black;
+  border: 3px solid greenyellow;
+  box-shadow: 0px 0px 2px black;
+  color: red;
+  font-size: 40px;
+}
+
+.caja, .caja-secundaria {
+  width: 500px;
+}
+
+/*# sourceMappingURL=Style.css.map */
