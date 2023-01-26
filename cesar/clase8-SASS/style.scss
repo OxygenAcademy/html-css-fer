@@ -1,0 +1,11 @@
+//extensión .scss se parece más a CSS, extensión .sass se parece más a Javascript//
+
+//Puedes crear variables con $//
+
+/*$texto: "Hola Jekk0";
+$numero: 68;
+$boolean: true;*/
+
+
+@use "Modulos/modulo"; //Cargas un módulo con sus variables, estilo, selectores...//
+@use "Modulos/divStyle"; // Puedes cargar los que quieras//

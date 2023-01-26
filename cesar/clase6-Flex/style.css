@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(137, 255, 249);
+}
+
+.flexcontainer {
+    display: flex;
+    background-color: rgb(255, 107, 223);
+    border: 5px solid rgb(0, 0, 0);
+
+    /*Propiedades más importantes contenedor*/
+    flex-direction: column; /*Como los elementos se van a apilar, por filas o columnas,  define que propiedades usar para posicionar vertical u horizontalmente*/
+    flex-wrap: wrap; /*cuando no quepan, si se van ha hacer pequeños o bajar/subir*/
+    justify-content: center; /*posición eje  X*/
+    align-items: center; /*posición eje Y*/
+    /*align-items: stretch; stretch para que los items ocupen todo lo que puedan*/
+
+    row-gap: 10px; /*distancia entre elementos de la fila*/
+    column-gap: 10px; /*distancia entre elementos de la columna*/
+}
+
+.flexitem {
+    height: 90px;
+    width: 90px;
+    line-height: 90px; /*Mismas dimensiones que height para que centre verticalmente*/
+
+    border: 3px solid black;
+    margin: 10px;
+    background-color: rgb(182, 238, 144);
+    text-align: center;
+}
+
+.box1 {
+    /*order: 3; por defecto es 0, posiciones de  0 a X*/
+
+}
+
+.box2 {
+    
+}
+
+.box3 {
+    /*flex-grow: 2; crece 2 veces más que el resto al rellenar*/
+    /*flex-shrink: 2; se encoge 2 veces más que el resto al reducir*/
+    
+}
+
+.box4 {
+    
+}

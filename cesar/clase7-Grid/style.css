@@ -1,0 +1,80 @@
+body {
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    height: 800px;
+    background-color: pink;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 0 auto;
+
+    display: grid;
+    
+    /*grid-template-columns: 20px 20px auto auto 20px; /*Cada parámetro es una columna, se le pueden pasar medidas de varias formas*/
+
+    grid-template-rows: 100px 100px auto auto 100px; /*Cada parámetro es una fila, se le pueden pasar medidas de varias formas*/
+
+    grid-template-areas: "nav nav nav nav"
+                         "menu-pag menu-pag menu-pag menu-pag"
+                         "contacto contacto galeria panel-izq"
+                         "contenido contenido galeria panel-izq"
+                         "footer footer footer footer";
+                         
+
+}
+
+.item {
+    border: 3px solid black;
+    background-color: rgb(255, 229, 80);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.nav {
+    /*grid-column: 1 / 4; /*Empieza en col 1 y acaba en col 3 (va hasta 4)*/
+    /*grid-column: 1 / span 3; Desde la col 1 recorre 3 más*/
+    grid-area: nav; /*Asignar la clase con el grid-template-areas*/
+}
+
+.box-item {
+    height: 20px;
+    background-color: rgb(108, 145, 145);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+.menu-pag {
+    /*grid-row: 2 / 4; /*Empieza en fil 2 y acaba en fil 3 (va hasta 4)*/
+    /*grid-row: 2 / span 2; Empieza en fil 1 y recorre 2 más*/
+    grid-area: menu-pag;
+}
+
+.contacto {
+    grid-area: contacto;
+}
+
+.galeria {
+    grid-area: galeria;
+}
+
+.panel-izq {
+    grid-area: panel-izq;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido {
+    grid-area: contenido;
+}
+
+.footer {
+    grid-area: footer;
+}

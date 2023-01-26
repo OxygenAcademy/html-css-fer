@@ -1,0 +1,49 @@
+$color-principal: #0077ff;
+$color-secundario: #ff7424;
+$color-fondo: #89ff65;
+
+body {
+    background-color: $color-fondo;
+}
+
+.sass-style {
+    
+    p {
+        color: $color-secundario;
+        background-color: whitesmoke;
+    }
+    
+    h1, h2 {
+        color: $color-principal;
+        background-color: whitesmoke;
+    }
+}
+
+//mixing
+@mixin mixingStyle($fondo: #726fff, $color-borde: black, $size: 80px) {
+    background-color: $fondo;
+    height: $size;
+    border: 2px solid $color-borde;
+    color: azure;
+}
+
+@mixin fontStyle($size, $weight, $decoration) {
+    font-size: $size;
+    font-weight: $weight;
+    text-decoration: $decoration;
+}
+
+.mixingClass {
+    @include mixingStyle();
+    @include fontStyle(15px, bold , underline);
+}
+
+.mixingClass-b {
+    @include mixingStyle(black, white, 200px);
+    @include fontStyle(30px, null, null);
+}
+
+.mixingClass-c {
+    @include mixingStyle(green, red, 120px); //Para no modificar un parámetro-null
+    @include fontStyle(60px, 1, null);
+}

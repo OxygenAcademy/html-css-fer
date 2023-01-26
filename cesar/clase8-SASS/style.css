@@ -1,0 +1,50 @@
+body {
+  background-color: #89ff65;
+}
+
+.sass-style p {
+  color: #ff7424;
+  background-color: whitesmoke;
+}
+.sass-style h1, .sass-style h2 {
+  color: #0077ff;
+  background-color: whitesmoke;
+}
+
+.mixingClass {
+  background-color: #726fff;
+  height: 80px;
+  border: 2px solid black;
+  color: azure;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.mixingClass-b {
+  background-color: black;
+  height: 200px;
+  border: 2px solid white;
+  color: azure;
+  font-size: 30px;
+}
+
+.mixingClass-c {
+  background-color: green;
+  height: 120px;
+  border: 2px solid red;
+  color: azure;
+  font-size: 60px;
+  font-weight: 1;
+}
+
+div {
+  background-color: #9e9b00;
+  color: #e046ff;
+}
+
+/*$texto: "Hola Jekk0";
+$numero: 68;
+$boolean: true;*/
+
+/*# sourceMappingURL=style.css.map */
