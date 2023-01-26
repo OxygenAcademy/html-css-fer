@@ -1,0 +1,9 @@
+$color-secundario: green;
+$color-defondo: red;
+
+div{
+    background-color: $color-defondo;
+    color: $color-secundario;
+    font-size: 40px;
+}
+

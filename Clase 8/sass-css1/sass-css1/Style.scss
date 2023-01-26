@@ -1,0 +1,37 @@
+@use 'modulo';
+
+//variables
+$color-principal: lightgreen;
+$color-letra: black;
+
+body {
+    background: $color-principal;
+}
+
+//mixing
+@mixin caja_personalizada($fondo: green, $color: $color-letra)
+{
+    background-color: $fondo;
+    bottom: 4px solid black;
+    border: 3px solid greenyellow;
+    box-shadow: 0px 0px 2px black;
+    color: $color;
+    font-size: 40px;
+}
+
+.caja{
+
+    @include caja_personalizada();
+}
+
+//reutilizacion de mixing con parametros dinstintos
+.caja-secundaria
+{
+    @include caja_personalizada(slateblue, red);
+}
+
+//Operadores
+.caja, .caja-secundaria
+{
+    width: 400px + 100px;
+}
