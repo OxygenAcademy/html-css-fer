@@ -12,23 +12,26 @@ body {
   background-color: burlywood;
 }
 
-.mixingclass {
+.mixingClass {
   background-color: greenyellow;
   height: 30px;
   border: 3px solid black;
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
 }
 
-.mixingclass-b {
-  background-color: orange;
+.mixingClass-b {
+  background-color: rgb(33, 95, 153);
   height: 60px;
-  border: 3px solid lightcoral;
+  border: 3px solid;
 }
 
-.mixingclass-c {
-  background-color: rgb(111, 0, 255);
-  height: 200px;
-  border: 3px solid purple;
-  font-family: "Courier New", Courier, monospace;
+.mixingClass-c {
+  background-color: brown;
+  height: 500px;
+  border: 3px solid lightcoral;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
   text-align: center;
 }
@@ -37,6 +40,4 @@ div {
   background-color: red;
   color: green;
   font-size: 40px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

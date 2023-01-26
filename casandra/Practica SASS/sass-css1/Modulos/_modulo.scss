@@ -19,28 +19,38 @@ body {
     }
 }
 
-//mixin
-@mixin mixingStyle($fondo: greenyellow, $color-borde: black, $size: 30px) {
+//mixing
+@mixin mixingStyle($fondo: greenyellow, $color-borde: black, $size: 30px)
+{
     background-color: $fondo;
     height: $size;
     border: 3px solid $color-borde;
-
-
 }
 
-.mixingclass {
+@mixin mixingAux()
+{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+.mixingClass
+{
     @include mixingStyle();
+    @include mixingAux();
 }
 
-.mixingclass-b {
-    @include mixingStyle(orange, $color-secundario, 60px);
+.mixingClass-b{
+
+    @include mixingStyle(rgb(33, 95, 153), null, 60px);
 }
 
-.mixingclass-c {
-    @include mixingStyle(rgb(111, 0, 255), purple, 200px);
-    font-family: 'Courier New', Courier, monospace;
+.mixingClass-c{
+
+    @include mixingStyle(brown, $color-secundario, 500px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
     text-align: center;
-
 }
+
 
