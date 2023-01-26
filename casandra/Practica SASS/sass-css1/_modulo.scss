@@ -1,0 +1,46 @@
+$color-principal: cornflowerblue;
+$color-secundario: lightcoral;
+$color-defondo: plum;
+
+body {
+    background-color: $color-defondo;
+}
+
+.sassstyles {
+    p {
+        color: $color-secundario;
+        background-color: aquamarine;
+    }
+
+    h1,
+    h2 {
+        color: $color-principal;
+        background-color: burlywood;
+    }
+}
+
+//mixin
+@mixin mixingStyle($fondo: greenyellow, $color-borde: black, $size: 30px) {
+    background-color: $fondo;
+    height: $size;
+    border: 3px solid $color-borde;
+
+
+}
+
+.mixingclass {
+    @include mixingStyle();
+}
+
+.mixingclass-b {
+    @include mixingStyle(orange, $color-secundario, 60px);
+}
+
+.mixingclass-c {
+    @include mixingStyle(rgb(111, 0, 255), purple, 200px);
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+
+}
+
