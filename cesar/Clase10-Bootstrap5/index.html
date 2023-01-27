@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Bootstrap 5</title>
+
+    <!-- Cargar Bootstrap 5 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!--Fila 1-->
+        <div class="row">
+            <div class="col">Columna 1</div>
+            <div class="col">Columna 2</div>
+            <div class="col">Columna 3</div>
+            <div class="col">Columna 4</div>
+        </div>
+        <!--Fila 2-->
+        <div class="row text-center">
+            <div class="col">
+                <img src="img/andromeda.jpg" heigth="20%" width="20%" class="img-fluid" alt="Imagen responsive">
+            </div>
+        </div>
+
+        <!--Fila 3-->
+        <div class="row text-center">
+            <div class="col text-info">
+                <button class="btn">Botón 1</button>
+            </div>    
+            <div class="col text-primary">
+                <button class="btn">Botón 2</button>
+            </div>   
+            <div class="col text-bg-success">
+                <button class="btn">Botón 3</button>
+            </div> 
+            <div class="col text-bg-warning">
+                <button class="btn">Botón 4</button>
+            </div> 
+            <div class="col text-bg-light">
+                <button class="btn">Botón 5</button>
+            </div> 
+            <div class="col text-bg-dark">
+                <button class="btn">Botón 6</button>
+            </div>   
+        </div>
+
+        <!--Fila 4-->
+        <div class="row">
+            <div class="col d-block">
+                <!--Carta de bootstrap-->
+                <div class="card text-bg-secondary">
+                    <h5 class="card-header">Carta Bootstrap 5</h5>
+                    <div class="card-body">
+                      <h5 class="card-title text-bg-warning">Hola</h5>
+                      <p class="card-text text-bg-info">Esto es un párrafo dentro de la carta</p>
+                      <a href="#" class="btn btn-primary text-bg-danger">Pincha pero no pasa nada :(</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
